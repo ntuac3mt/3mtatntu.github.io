@@ -1,0 +1,151 @@
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	#footbar
+	{
+		display:none;
+	}
+	img#bannerr{
+		height: 200px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	img#bannerr
+	{
+		height: 200px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	iframe#promo-video
+	{
+		width: 300px;
+		height: 169px;
+	}
+	iframe#timelapse-video
+	{
+		width: 300px;
+		height: 169px;
+	}
+	iframe#fb-page-box
+	{
+		width: 300px;
+		height: 169px;
+	}
+	img#bannerr{
+		height: 150px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+	img#bannerr
+	{
+		height: 200px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1524px) {
+	img#bannerr
+	{
+		height: 300px;
+	}
+}
+
+/* VERY Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+	img#bannerr
+	{
+		height: 350px;
+	}
+}
+
+/* VERY VERY Large screens ----------- */
+@media only screen and (min-width : 2124px) {
+	img#bannerr
+	{
+		height: 400px;
+	}
+}
+
+.navbar-default {
+	background-color: #0a446d;
+	border-color: #229fff;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ffef00;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ffef00;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #229fff;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ffef00;
+	background-color: #229fff;
+}
+.navbar-default .navbar-toggle {
+	border-color: #229fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #229fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+	color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+	color: #ffef00;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ffef00;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #ffef00;
+		background-color: #229fff;
+	}
+}
+
+#bannerr{
+	/*background-image: url("images/banner.png");
+	background-size: cover;
+	position:static;*/
+	height:200px; 
+	width: 100%;
+	max-width: 100%;
+}
+
+p { 
+	text-align: justify;
+}
